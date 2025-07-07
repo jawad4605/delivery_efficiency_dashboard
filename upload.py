@@ -49,17 +49,7 @@ if __name__ == "__main__":
         exit(0)
     bucket_name = 'coding_evaluation'
     credentials = {
-        "type": "service_account",
-        "project_id": "dataoperations-449123",
-        "private_key_id": "3b5b6be3c2719d1690f64e9fceae58eecb1c58d3",
-        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCnkZMFK8qv3V2G\nOEs1iz/WgMXcWLenFMTWEzBAw2runG4t1x462TQ0uA2BIe8OcdgX0yebsLeKR3xC\nKyJg7hT9jmng7mrx4ZyJowu24PBiCJpugyijvTC6VyCsz9z7G2ZXGN0GUFFI666M\n6BxnVG3KXV0YbP63fv0WEAMPyXgbmGWJ4qet3baeKRCHbRqEpdV/vh8cGNagO3sw\n2l0SrN2sYgTzzYg4qVnpyl2pzn2DNqWqhG7xspwMLYvxjZ+W96K4yz3SKXHvjHom\nwHzLCX52bFsYVaRsBTztE562++cRJi8HKAxZcpNDKhpyJpsfKM7+uMgPoDO2U3Do\nYk3S3OCNAgMBAAECggEATMpAdqEv3FH0dvq7NIlgstsGUUjyuIWjAnt+pF8pVLmp\nICaxusQo0XP69E9prtPq9FgWkZl1MtA5mFUOBx9zzRKDYMnBhqEeTFDEoIUKg9Jv\neu9uI0Mi3nHpDmifWw+eYZGKUEdkSKeAsR/5TDz7pz4L2JKyU8LFFmQ2Evj/qpz3\nkkr4mozIw/Ed+z5MKLAo04hxtak9GvNoXccbOJQ176na8LYfgOD6d4F8v8qidjy1\nqTwGTIPHKd0AFfCUMh2JZAHpFDuu2Z4rdhnG4kU6OSGGjwVwt/2Y2AEJKlsK10C+\nwUTjdVbpwL+v4eQg+np4gPNMdegFrmx238p/uZvtnQKBgQDr6fgGmZz/B2g/hdav\n6MbzxeDR5tEyrrTcg0ZhP/8qhl8s4/80w25n7FJZ4ncuf3WjS5+ZMo3E3xO34xBb\nTenxU6cLrkCRqPUb9wxeZA9Iyd/z9XcINVm3LjxkSYCpQ7Yprm4TKuUB9XxNKNjm\ntrMcHqhLgVNYDXsT1kXhvr17IwKBgQC11e/N3AriuyA7+GNJTCBVM+QgkTg9VscO\n6VGFvBhJmO7Q6fEnLzo3wSu0xIq7RR9ptzI8iE8C49yVittRpR9+xEQklgE+z/jD\nEKhFRWaLgdh2/HGOklEgligrl7dBxarRrsmQ5dcpo1C7YZAH3pS3sjuWtKMJ7H1z\n+PHzkOQIjwKBgQC6IFwZCPU+mJ99DqE1JFhjWAlqUctXS1NSbxgF/jHZYS6SAkgF\nXvMqdt76H5ycSN+NOErw2VvUqZOrDzCGeNBMIA25P3+d7EmGCMHvbs5IRU218kI5\nba4cwhPPo9YotU1xUTdzU/JeO0oYrlOCoz5ovx9UgvI4lFo4amO0GYLxNQKBgQCd\nEqUHyuCMYuDBbRs3Ic98Skrx5wAR3HgvZVTKlWTVjoodZTivhJhhuTgr+utsQZWV\nGG8I4yZ9dKADfeNeb6j5NEk44WtJ+xUES8tPq1edgxieEAt4AOSbpZolrfTbmAir\nALWVuTVX/n+qnehxI9CLribTVE7SL7tfBtjacXrJ+QKBgQC6P8EJpTk91G0sE2BA\nvYwOSNnEA1DRGMIxqd+oihA5ZOD3Z+iOprGa5YJ3nsZ8JJ6hD7ucJ/F4Mq4sJOCi\nDx6ZQNrC89ycGKg28ocLtKrmyvohPo39lb23Tp7IxdHKwHDjiJViNtAbeV9avwPz\nfMNyh6agcYspcDuc1wBAZh5rNA==\n-----END PRIVATE KEY-----\n",
-        "client_email": "coding-evaluation@dataoperations-449123.iam.gserviceaccount.com",
-        "client_id": "112271742990232659742",
-        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-        "token_uri": "https://oauth2.googleapis.com/token",
-        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/coding-evaluation%40dataoperations-449123.iam.gserviceaccount.com",
-        "universe_domain": "googleapis.com"
+
     }
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
