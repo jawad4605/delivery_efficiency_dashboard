@@ -1,0 +1,10 @@
+src,trg,count
+Warehouse,Zone1,120
+Warehouse,Zone2,80
+Warehouse,Zone3,60
+Zone1,Moving,90
+Zone1,Idling,30
+Zone2,Moving,60
+Zone2,Idling,20
+Zone3,Moving,45
+Zone3,Idling,15
